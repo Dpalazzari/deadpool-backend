@@ -8,4 +8,9 @@ Install postgres, and create deadpool database:
 
 ```
 createdb deadpool
+▶ psql deadpool
+psql (11.2)
+Type "help" for help.
+
+deadpool=#
 ```
