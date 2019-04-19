@@ -11,4 +11,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.locals.title = 'Deadpool backend';
 
+const sequel = require('./src/sequelize')
+const Sequelize = sequel.class;
+const sequelize = sequel.sequelize;
+
 module.exports = app;
