@@ -14,18 +14,11 @@ app.locals.title = 'Deadpool backend';
 let db = require('./models/index');
 const url = require('./helpers/consulHelper');
 // let url = require('./seeders/helpers/consulHelper');
-let startApplication = async () => {
-  try {
-    let apiUrl = await url();
-    console.log(apiUrl)
-  } catch (err) {
-    console.log(err);
-  }
-  
-};
-
-startApplication();
-
+try {
+  url().then(apiUrl => console.log(apiUrl))
+} catch (err) {
+  console.log(err);
+}
 // url().then(thing => {
 //   console.log(thing)
 // })
