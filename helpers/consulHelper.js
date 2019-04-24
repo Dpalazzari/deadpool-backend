@@ -1,5 +1,4 @@
-module.exports = () => {  
-
+module.exports = async () => {  
 
   const getRequestUrl = async () => {
     let consul = require('consul')();
