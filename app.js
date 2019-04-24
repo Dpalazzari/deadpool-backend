@@ -11,8 +11,16 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.locals.title = 'Deadpool backend';
 
-const sequel = require('./src/sequelize')
-const Sequelize = sequel.class;
-const sequelize = sequel.sequelize;
-
+let db = require('./models/index');
+const url = require('./helpers/consulHelper');
+// let url = require('./seeders/helpers/consulHelper');
+let apiUrl = url().then(route => {
+  return route
+})
+console.log(apiUrl)
+// url().then(thing => {
+//   console.log(thing)
+// })
+// console.log(url);
+// console.log(typeof db.characters)
 module.exports = app;

@@ -2,6 +2,7 @@
 module.exports = (sequelize, DataTypes) => {
   const characters = sequelize.define('characters', {
     name: DataTypes.STRING,
+    decription: DataTypes.STRING,
     infinity_status: DataTypes.STRING,
     endgame_status: DataTypes.STRING
   }, {});

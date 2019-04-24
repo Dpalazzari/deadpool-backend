@@ -5,7 +5,7 @@ const debugWWW = require('debug')('deadpool-backend:WWW')
 const debugErrorWWW = require('debug')('deadpool-backend:errorWWW')
 const http = require('http')
 
-let port = normalizePort(process.env.PORT || '9393')
+let port = normalizePort(process.env.PORT || '9292')
 app.set('port', port)
 
 let server = http.createServer(app)
