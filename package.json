@@ -21,6 +21,7 @@
     "sequelize-cli": "^5.4.0"
   },
   "dependencies": {
+    "async": "^2.6.2",
     "body-parser": "^1.18.3",
     "consul": "^0.34.1",
     "debug": "^4.1.1",
