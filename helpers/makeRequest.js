@@ -16,5 +16,5 @@ module.exports = async (options) => {
       console.log(err);
     }
   }
-  return makeRequest(request, options);
+  return await makeRequest(request, options);
 }
