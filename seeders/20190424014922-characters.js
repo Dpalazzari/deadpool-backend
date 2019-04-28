@@ -4,8 +4,8 @@ module.exports = {
   up: (queryInterface, Sequelize) => {
     const request = require('request');
     const url     = require('../helpers/consulHelper');
-    let offset    = 0
-    url().then(route => {
+    let offset    = 0;
+    url().then(apiUrl => {
       
     })
     /*
