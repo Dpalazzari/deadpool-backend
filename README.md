@@ -14,3 +14,7 @@ Type "help" for help.
 
 deadpool=#
 ```
+
+Install consul (I typically do this through homebrew) and set up your consul cluster like so: 
+
+!["public-key-image"]("Screen Shot 2019-04-30 at 9.02.37 PM")
