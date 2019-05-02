@@ -8,11 +8,13 @@
     "prod": "NODE_ENV=production node ./bin/www",
     "dev": "NODE_ENV=development nodemon ./bin/www",
     "reinstall": "rm -rf node_modules && npm i",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --detectOpenHandles",
+    "debug-jest": "node --inspect-brk node_modules/.bin/jest --runInBand jest tests/*.js"
   },
   "author": "dpalazzari",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^24.7.1",
     "nodemon": "^1.18.11",
     "pryjs": "^1.0.3",
     "sequelize-auto": "^0.4.29",
