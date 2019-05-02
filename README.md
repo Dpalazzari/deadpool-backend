@@ -15,7 +15,7 @@ Type "help" for help.
 deadpool=#
 ```
 
-Install consul (I typically do this through homebrew) and set up your consul cluster like so: https://developer.marvel.com/account 
+Install consul (I typically do this through homebrew) and set up your consul cluster like so:
 
 <img width="451" alt="Screen Shot 2019-04-30 at 9 02 37 PM" src="https://user-images.githubusercontent.com/19585280/57004388-e4841b80-6b8b-11e9-8cb2-8700d9475b7f.png">
 
